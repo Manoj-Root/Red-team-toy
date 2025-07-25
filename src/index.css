@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cyber-dark text-cyber-green font-mono;
+  }
+  
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #00FF41 #1a1a1a;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background: #00FF41;
+    border-radius: 4px;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background: #33ff33;
+  }
+}
+
+@layer components {
+  .terminal-output {
+    @apply bg-cyber-gray p-4 rounded border border-cyber-green/30 max-h-64 overflow-y-auto text-sm;
+  }
+  
+  .cyber-button {
+    @apply bg-cyber-gray border border-cyber-green text-cyber-green px-4 py-2 rounded hover:bg-cyber-green hover:text-cyber-dark transition-all duration-300 font-mono;
+  }
+  
+  .cyber-input {
+    @apply bg-cyber-gray border border-cyber-green/50 text-cyber-green px-3 py-2 rounded focus:border-cyber-green focus:outline-none font-mono;
+  }
+  
+  .tool-card {
+    @apply bg-cyber-gray border border-cyber-green/30 rounded-lg p-6 hover:border-cyber-green/60 transition-all duration-300;
+  }
+  
+  .tab-button {
+    @apply px-4 py-2 border-b-2 border-transparent hover:border-cyber-green/50 transition-all duration-300;
+  }
+  
+  .tab-button.active {
+    @apply border-cyber-green text-cyber-green;
+  }
+}
