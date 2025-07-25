@@ -34,8 +34,10 @@ Planned / Roadmap
 
 🖼️ Screenshot
 
-    <img width="1821" height="959" alt="image" src="https://github.com/user-attachments/assets/5fa38d0e-3fa9-45e2-b100-7cd44c04076e" />
-    <img width="1035" height="902" alt="image" src="https://github.com/user-attachments/assets/610da95c-4090-4d8b-9401-481703cbb49c" />
+![Red Team Toy UI - 1](image/screenshot.png)
+
+![Red Team Toy UI - 2](image/screenshot1.png)
+
 
 📦 Getting Started
 Prerequisites
